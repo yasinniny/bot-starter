@@ -4,7 +4,7 @@ const {Routes} = require('discord-api-types/v9');
 const {token, clientId, guildId} = require('./utils/config.json');
 
 const commands = [];
-const commandFiles = fe.readdirSync('.src/commands').filter(file => file.endsWith('.js'));
+const commandFiles = fs.readdirSync('./src/commands').filter(file => file.endsWith('.js'));
 
 for (const file of commandFiles) {
     const command = require(`./src/commands/${file}`);
