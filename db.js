@@ -1,6 +1,5 @@
 const {Pool} = require('pg');
-const {user,database,password,port,host,uri} = require('./utils/config.json');
-const {MongoClient} = require('mongodb');
+const {user,database,password,port,host} = require('./utils/config.json');
 
 const pool = new Pool({
     user: user,
@@ -10,6 +9,4 @@ const pool = new Pool({
     host: host,
 });
 
-const mongo = new MongoClient(uri);
-
-module.exports = {mongo, pool};
+module.exports = {pool};

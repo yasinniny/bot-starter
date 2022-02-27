@@ -15,7 +15,6 @@
     "discord-api-types": "^0.27.2",
     "discord.js": "^13.6.0",
     "eslint": "^8.9.0",
-    "mongodb": "^4.4.0",
     "pg": "^8.7.3"
   }
 }
