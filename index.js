@@ -1,7 +1,6 @@
 const fs = require('fs');
 const {Client, Collection, Intents} = require('discord.js');
-const {token, dbName} = require('./utils/config.json');
-const {pool, mongo} = require('./db');
+const {token} = require('./utils/config.json');
 
 const client = new Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_VOICE_STATES]});
 
