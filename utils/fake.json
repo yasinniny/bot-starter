@@ -1,0 +1,10 @@
+{
+    "token": "your token",
+    "clientId": "your bot application ID",
+    "guildId": "your discord server ID",
+    "host": "localhost",
+    "port": "5432",
+    "password": "your password",
+    "user": "database owner",
+    "database": "your database"
+}
