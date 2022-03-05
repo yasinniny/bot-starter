@@ -4,7 +4,7 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('ping')
         .setDescription("Bot will say pong!"),
-    async execute() {
+    async execute(interaction) {
         interaction.reply("Pong!");
         setTimeout(() => interaction.deleteReply(), 5000);
     }
