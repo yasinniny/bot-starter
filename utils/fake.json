@@ -1,10 +1,10 @@
 {
     "token": "your token",
-    "clientId": "your bot application ID",
-    "guildId": "your discord server ID",
-    "host": "localhost",
+    "clientId": "your bot application id",
+    "guildId": "your discord server id",
+    "host": "your postgresql server host",
     "port": "5432",
-    "password": "your password",
-    "user": "database owner",
-    "database": "your database"
+    "password": "your postgresql password",
+    "user": "your postgresql databse owner",
+    "database": "your databse"
 }
