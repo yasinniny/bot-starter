@@ -5,9 +5,11 @@ the discord bot starter
 ```
 git clone https://github.com/yasinniny/bot-starter.git starter
 
+cd starter/
+
 npm install
 ```
 
-##Settings
+## Settings
 
 You must fulfill the util/config.json
